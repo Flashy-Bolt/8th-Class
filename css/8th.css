@@ -1,0 +1,240 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+body{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 14px;
+	line-height: 24px;
+}
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Montserrat', sans-serif;
+}
+a, a:hover{
+	text-decoration: none;
+}
+
+/*Global CSS Ends*/
+.header-section{
+	width: 100%;
+}
+
+.header-section .bg-light{
+	background: #fff !important;
+}
+.header-section .navbar-light .navbar-nav .nav-link{
+	color: #28377E;
+	font-size: 14px;
+	font-weight: 600;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin: 0px 0px 0px 15px;
+}
+.header-section .navbar-light .navbar-nav .nav-link:hover, .header-section .navbar-light .navbar-nav .nav-link:focus{
+	color: #f1602b;
+}
+.slider-section{
+	width: 100%;
+	padding: 100px 0px 40px;
+	background: url("../pics/banner.png") center top no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.slider-section h1{
+	font-size: 52px;
+	line-height: 62px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #fff;
+	padding: 0px 0px 100px 0px;
+}
+.slider-section .arrow img{
+	width: 15px;
+}
+.title{
+	width: 100%;
+}
+.title img{
+	margin-bottom: 15px;
+}
+.title h2{
+	font-size: 48px;
+	line-height: 58px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+}
+.who-we-section{
+	width: 100%;
+	padding: 80px 0px;
+}
+.who-we-section .title{
+	margin: 40px 0px 0px  ;
+}
+.who-we-section p{
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 24px;
+	color: #b0b0b1;
+}
+.who-img{
+	width: 100%;
+	text-align: center;
+}
+.what-we-do{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../pics/bg2.png") center top no-repeat;
+	background-size: cover;
+}
+.what-we-do .title{
+	text-align: center;
+	padding: 0px 0px 50px;
+}
+.what-we-do .card{
+	border-radius: 0px;
+	border: 0px;
+}
+.what-we-do .card .card-body{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	top: 40%;
+}
+.what-we-do .card .card-body .card-title{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 32px;
+	color: #fff;
+}
+.what-we-do .card .card-body img{
+	margin-top: 120px;
+}
+.attorney{
+	width: 100%;
+	padding: 80px 0px;
+	background: url("../pics/bg3.png") center top no-repeat;
+	background-size: cover;
+}
+.attorney .title{
+	width: 100%;
+	margin: 80px 0px 0px;
+}
+.attorney .title h2{
+	color: #fff;
+}
+.attorney .title p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #929dcf;
+}
+.attorney .title .btn-light{
+	background: transparent;
+	padding: 0px;
+	font-size: 24px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #f1602b;
+	text-transform: uppercase;
+	border: 0px;
+	padding-top: 60px;
+}
+
+.inner-attorney{
+	width: 100%;
+}
+.inner-attorney .card{
+	border-radius: 0px;
+	border: 0px;
+	margin-bottom: 25px;
+}
+.inner-attorney .card .card-body{
+	position: absolute;
+	width: 100%;
+	text-align: center;
+	bottom: 5%;
+}
+.inner-attorney .card .card-body .card-title{
+	text-transform: uppercase;
+	font-size: 22px;
+	font-weight: 700;
+	line-height: 32px;
+	color: #fff;
+}
+.language .title{
+	margin: 180px 0px 80px;
+	text-align: center;
+	text-transform: uppercase;
+}
+.language h5{
+	font-size: 26px;
+	line-height: 36px;
+	font-weight: 700;
+	text-transform: uppercase;
+	color: #1f4f87;
+}
+.language p{
+	font-size: 14px;
+	line-height: 24px;
+	color: #c7c7c7;
+}
+.language .btn-light{
+	background: transparent;
+	padding: 0px;
+	font-size: 16px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	color: #f1602b;
+	text-transform: uppercase;
+	border: 0px;
+	padding-top: 10px;
+}
+.form{
+	width: 100%;
+	background: #28377e;
+	margin: 200px 0px 0px;
+	padding-top: 2px;
+}
+.form .title{
+	text-align: center;
+	padding-bottom: 120px;
+}
+.form .title h2{
+	color: #fff;
+}
+.form .form-control{
+	background: #28377e;
+	color: #fff;
+	width: 60%;
+ 	padding: 12px 20px;
+ 	margin: 8px auto;
+	box-sizing: border-box;
+ 	border: none;
+ 	border-bottom: 1px solid #fff;
+ 	border-radius: 0px;
+}
+.form .button{
+	width: 100%;
+}
+.form .btn-primary{
+	margin-left: 570px;
+	margin-right: 570px;
+}
+.form .btn-primary{
+	background: #f1602b;
+	color: #fff;
+	width: 10%;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	box-sizing: border-box;
+}
+
+
+footer{
+	width: 100%;
+	text-align: center;
+	background: #0c1234;
+	padding: 80px 0px;
+	color: #fff;
+}
